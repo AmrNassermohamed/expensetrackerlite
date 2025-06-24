@@ -1,4 +1,4 @@
-![Flutter CI/CD](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/flutter_ci_cd.yml/badge.svg)
+![Flutter CI/CD](https://github.com/AmrNassermohamed/expensetrackerlite.git)
 
 
 # 💸 Expense Tracker Lite
