@@ -9,7 +9,7 @@ class CustomTextFormField extends StatelessWidget {
   final IconData? suffixIcon;
   final TextInputType keyboardType;
   final bool obscureText;
-  final Color? fillColor;
+
 
   const CustomTextFormField({
     super.key,
@@ -21,7 +21,7 @@ class CustomTextFormField extends StatelessWidget {
     this.suffixIcon,
     this.keyboardType = TextInputType.text,
     this.obscureText = false,
-    this.fillColor = Colors.white,
+
   });
 
   @override
@@ -33,12 +33,14 @@ class CustomTextFormField extends StatelessWidget {
       onTap: onTap,
       keyboardType: keyboardType,
       decoration: InputDecoration(
+        enabledBorder: InputBorder.none, // Removes underline in normal state
+        focusedBorder: InputBorder.none,
         labelText: labelText,
         hintText: hintText,
         suffixIcon: suffixIcon != null ? Icon(suffixIcon) : null,
-        border: const OutlineInputBorder(),
+       // border: const OutlineInputBorder(),
         filled: true,
-        fillColor: fillColor,
+        fillColor: Colors.grey.shade50,
       ),
     );
   }

@@ -5,7 +5,7 @@ class Expense {
   final DateTime date;
   final String category;
   final double convertedAmountUSD;
-  final String? receiptPath; // optional receipt image path
+  final String? receiptPath;
 
   Expense({
     required this.id,

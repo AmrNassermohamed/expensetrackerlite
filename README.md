@@ -1,3 +1,6 @@
+![Flutter CI/CD](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/flutter_ci_cd.yml/badge.svg)
+
+
 # 💸 Expense Tracker Lite
 
 A lightweight mobile expense tracking app with offline storage, currency conversion, pagination, and modern UI — built using **Flutter**, **Bloc**, **Hive**, and **Clean Architecture**.
@@ -42,12 +45,21 @@ Pagination is **handled locally**:
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Dashboard Screen
+<img src=""assets/screenshots/dashboard.jpeg />
+
+
+### ➕ Add Expense Screen
+<img src="assets/screenshots/add_expense.jpeg" />
+
 ## 🧪 Testing
 
-- ✅ Unit tests for all Use Cases
-- ✅ Repository tests
-- ✅ Dashboard BLoC test
-- ✅ Widget test for Dashboard Screen
+- ✅ Currency calculation
+- ✅ Expense validation
+- ✅ Include one unit test or widget/UI test
+- ✅ Pagination logic
 
 Run tests with:
 

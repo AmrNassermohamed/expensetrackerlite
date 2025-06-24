@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'app.dart';
-import 'features/expense/data/models/expense_model.dart';
+
 import '/injection_container.dart' as di;
+import 'data/models/expense_model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

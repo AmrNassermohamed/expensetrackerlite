@@ -1,14 +1,16 @@
+import 'package:expensetrackerlite/data/datasources/expense_local_data_source.dart';
+import 'package:expensetrackerlite/data/datasources/expense_remote_data_source.dart';
+import 'package:expensetrackerlite/data/repositories/expense_repository_impl.dart';
+import 'package:expensetrackerlite/domain/repositories/expense_repository.dart';
+import 'package:expensetrackerlite/domain/usecases/add_expense.dart';
+import 'package:expensetrackerlite/domain/usecases/get_expenses.dart';
+import 'package:expensetrackerlite/domain/usecases/get_filtered_expense_usescases.dart';
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
-import '../features/expense/presentation/bloc/add_expense/add_expense_bloc.dart';
-import '../features/expense/presentation/bloc/dashboard/dashboard_bloc.dart';
-import '../features/expense/data/datasources/expense_local_data_source.dart';
-import '../features/expense/data/datasources/expense_remote_data_source.dart';
-import '../features/expense/data/repositories/expense_repository_impl.dart';
-import '../features/expense/domain/repositories/expense_repository.dart';
-import '../features/expense/domain/usecases/add_expense.dart';
-import '../features/expense/domain/usecases/get_expenses.dart';
-import 'features/expense/domain/usecases/get_filtered_expense_usescases.dart';
+
+import 'presentation/bloc/add_expense/add_expense_bloc.dart';
+import 'presentation/bloc/dashboard/dashboard_bloc.dart';
+
 
 final sl = GetIt.instance;
 

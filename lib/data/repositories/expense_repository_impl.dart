@@ -1,6 +1,7 @@
-import '../../../../core/utils/pagination_params.dart';
-import '../../domain/entities/expense.dart';
-import '../../domain/repositories/expense_repository.dart';
+import 'package:expensetrackerlite/core/utils/pagination_params.dart';
+import 'package:expensetrackerlite/domain/entities/expense.dart';
+import 'package:expensetrackerlite/domain/repositories/expense_repository.dart';
+
 import '../datasources/expense_local_data_source.dart';
 import '../datasources/expense_remote_data_source.dart';
 import '../models/expense_model.dart';

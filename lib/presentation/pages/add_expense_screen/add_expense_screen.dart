@@ -1,8 +1,8 @@
-import 'package:expensetrackerlite/features/expense/presentation/pages/add_expense_screen/widgets/action_button.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/add_expense_screen/widgets/amount_field.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/add_expense_screen/widgets/category_grid.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/add_expense_screen/widgets/date_field.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/add_expense_screen/widgets/recipt_uploader.dart';
+import 'package:expensetrackerlite/presentation/pages/add_expense_screen/widgets/action_button.dart';
+import 'package:expensetrackerlite/presentation/pages/add_expense_screen/widgets/amount_field.dart';
+import 'package:expensetrackerlite/presentation/pages/add_expense_screen/widgets/category_grid.dart';
+import 'package:expensetrackerlite/presentation/pages/add_expense_screen/widgets/date_field.dart';
+import 'package:expensetrackerlite/presentation/pages/add_expense_screen/widgets/recipt_uploader.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../core/constants/ui_constants.dart';
@@ -39,6 +39,7 @@ class AddExpenseScreen extends StatelessWidget {
         }
       },
       child: Scaffold(
+
         appBar: AppBar(
           title: const Text('Add Expense'),
           leading: IconButton(
@@ -49,7 +50,7 @@ class AddExpenseScreen extends StatelessWidget {
           foregroundColor: Colors.black,
           elevation: 0,
         ),
-        backgroundColor: const Color(0xFFF9F9F9),
+        backgroundColor:  Colors.white,
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: ListView(

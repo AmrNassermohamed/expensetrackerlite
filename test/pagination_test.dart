@@ -1,12 +1,12 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:expensetrackerlite/core/enums/dashboard_filter.dart';
 import 'package:expensetrackerlite/core/utils/pagination_params.dart';
-import 'package:expensetrackerlite/features/expense/domain/entities/expense.dart';
-import 'package:expensetrackerlite/features/expense/domain/usecases/get_expenses.dart';
-import 'package:expensetrackerlite/features/expense/domain/usecases/get_filtered_expense_usescases.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/dashboard/dashboard_bloc.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/dashboard/dashboard_event.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/dashboard/dashboard_state.dart';
+import 'package:expensetrackerlite/domain/entities/expense.dart';
+import 'package:expensetrackerlite/domain/usecases/get_expenses.dart';
+import 'package:expensetrackerlite/domain/usecases/get_filtered_expense_usescases.dart';
+import 'package:expensetrackerlite/presentation/bloc/dashboard/dashboard_bloc.dart';
+import 'package:expensetrackerlite/presentation/bloc/dashboard/dashboard_event.dart';
+import 'package:expensetrackerlite/presentation/bloc/dashboard/dashboard_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

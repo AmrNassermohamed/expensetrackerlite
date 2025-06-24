@@ -1,8 +1,8 @@
-import 'package:expensetrackerlite/features/expense/domain/entities/expense.dart';
-import 'package:expensetrackerlite/features/expense/domain/usecases/add_expense.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/add_expense/add_expense_bloc.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/add_expense/add_expense_event.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/add_expense/add_expense_state.dart';
+import 'package:expensetrackerlite/domain/entities/expense.dart';
+import 'package:expensetrackerlite/domain/usecases/add_expense.dart';
+import 'package:expensetrackerlite/presentation/bloc/add_expense/add_expense_bloc.dart';
+import 'package:expensetrackerlite/presentation/bloc/add_expense/add_expense_event.dart';
+import 'package:expensetrackerlite/presentation/bloc/add_expense/add_expense_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
 import 'package:mockito/mockito.dart';

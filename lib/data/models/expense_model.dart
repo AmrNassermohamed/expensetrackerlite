@@ -1,5 +1,8 @@
+import 'package:expensetrackerlite/domain/entities/expense.dart';
 import 'package:hive/hive.dart';
-import '../../domain/entities/expense.dart';
+
+
+
 
 part 'expense_model.g.dart';
 

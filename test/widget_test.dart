@@ -1,7 +1,7 @@
 import 'package:expensetrackerlite/core/enums/dashboard_filter.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/dashboard/dashboard_bloc.dart';
-import 'package:expensetrackerlite/features/expense/presentation/bloc/dashboard/dashboard_state.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/dashboard_screen.dart';
+import 'package:expensetrackerlite/presentation/bloc/dashboard/dashboard_bloc.dart';
+import 'package:expensetrackerlite/presentation/bloc/dashboard/dashboard_state.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

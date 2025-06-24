@@ -1,9 +1,8 @@
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/expense_item_card.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/widgets/balance_card.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/widgets/blue_decored_background.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/widgets/bottom_nav_bar.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/widgets/dashboard_header.dart';
-import 'package:expensetrackerlite/features/expense/presentation/pages/Dashboard_screen/widgets/recent_header.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/widgets/balance_card.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/widgets/blue_decored_background.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/widgets/bottom_nav_bar.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/widgets/dashboard_header.dart';
+import 'package:expensetrackerlite/presentation/pages/Dashboard_screen/widgets/recent_header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '/injection_container.dart' as di;
@@ -13,6 +12,7 @@ import '../../bloc/dashboard/dashboard_bloc.dart';
 import '../../bloc/dashboard/dashboard_event.dart';
 import '../../bloc/dashboard/dashboard_state.dart';
 import '../add_expense_screen/add_expense_screen.dart';
+import 'expense_item_card.dart';
 
 
 class DashboardScreen extends StatefulWidget {
@@ -101,8 +101,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: const Color(0xFF246BFD),
-          onPressed: () {
-            Navigator.push(
+          onPressed: () async {
+           await Navigator.push(
               context,
               MaterialPageRoute(builder: (_) => BlocProvider<AddExpenseBloc>(
                 create: (_) => di.sl<AddExpenseBloc>(),

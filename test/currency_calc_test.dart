@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:expensetrackerlite/features/expense/data/datasources/expense_remote_data_source.dart';
+import 'package:expensetrackerlite/data/datasources/expense_remote_data_source.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
