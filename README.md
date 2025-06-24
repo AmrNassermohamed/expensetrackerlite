@@ -48,7 +48,7 @@ Pagination is **handled locally**:
 ## 📸 Screenshots
 
 ### 🏠 Dashboard Screen
-<img src=""assets/screenshots/dashboard.jpeg />
+<img src="assets/screenshots/dashboard.jpeg" />
 
 
 ### ➕ Add Expense Screen
